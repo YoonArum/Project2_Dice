@@ -1,0 +1,121 @@
+/* 레이아웃 */
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 10vh;
+    top: 0;
+    position: sticky;
+    background-color: #e7b3ff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nanum Pen Script', cursive;
+
+}
+
+main {
+    height: 90vh;  
+    background-color: #cec3ce;
+    display: flex;    
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    
+     
+}
+#bt {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+main > section{
+    margin: 2vh;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#msg{
+    /*
+    display: none;
+    */
+}
+.diceimg {
+    margin: 10px;
+    
+        
+}
+main > section >div > button {
+    display: inline-block;    
+    width: 100%;
+    margin: 1vh;
+    width: 50vh;
+    height: 20vh;
+    max-width: 200px;
+    max-height: 50px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background-color: #ffd9e3;
+    color: white;
+    font-size: 1rem;
+}
+
+.msgDiv .divMsg{
+    display: inline-block;    
+    width: 100%;
+    margin: 1vh;
+    width: 50vh;
+    height: 20vh;
+    max-width: 200px;
+    max-height: 50px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background-color: #ffd9e3;
+    color: white;
+    font-size: 1rem;    
+}
+input[type="radio"]{
+    display: none;
+}
+
+input[type="radio"]+ span{
+    display: inline-block;
+    padding: 15px 10px;
+    border:  1px solid #dfdfdf;
+    background-color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked+ span{
+    background-color: green;
+    color: beige;
+}
+
+
+main > section > button {
+    display: inline-block;    
+    width: 100%;
+    margin: 1vh;
+    width: 50vh;
+    height: 20vh;
+    max-width: 200px;
+    max-height: 50px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background-color: #ffd9e3;
+    color: white;
+    font-size: 1rem;    
+}
+button:hover, button:active{
+    background-color: white;
+    color: #ffd9e3;
+}
