@@ -1,5 +1,5 @@
-##주사위
-https://github.com/YoonArum/Project2_Dice/deployments/activity_log?environment=github-pages
+#주사위
++ https://github.com/YoonArum/Project2_Dice/deployments/activity_log?environment=github-pages
 
 
 
