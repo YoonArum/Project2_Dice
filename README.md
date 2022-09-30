@@ -1,3 +1,8 @@
+##주사위
+https://github.com/YoonArum/Project2_Dice/deployments/activity_log?environment=github-pages
+
+
+
 # 자바스크립트 연습
 
 + <script>태그사용
